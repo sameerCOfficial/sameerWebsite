@@ -44,13 +44,6 @@ img {
   margin-left: 900px;
   width: 200px;
 }
-
-ul {
-  margin-top: 50px;
-  font-family: VT323;
-  font-size: 40px;
-  
-}
 li {
   display: inline;
   float: left;
@@ -71,4 +64,17 @@ a {
 .navbar {
   font-family: VT323;
   font-size:20px;
+}
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 60px; /* Adjust font size for smaller screens */
+  }
+
+  h2 {
+    font-size: 40px; /* Adjust font size for smaller screens */
+  }
+  .problem-element {
+    width: 100%; /* Adjust width to fit the screen width */
+    margin: 0;   /* Remove any excessive margin */
+  }
 }
