@@ -1,0 +1,74 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+body {
+  background-image: url("emerald.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  z-index: -1;
+}
+:root {
+  --text-color: rgb(255,255,255);
+}
+h1 {
+    font-size: 120px;
+    font-family: VT323;
+    color:var(--text-color);
+    animation: fadeIn 3.5s;
+}
+h2 {
+    color:var(--text-color);
+    font-family: VT323;
+    animation: fadeIn 3.5s;
+    font-size: 60px;
+}
+p {
+  color:var(--text-color);
+  font-family: VT323;
+  animation: fadeIn 3.5s;
+  font-size: 40px;
+}
+
+@keyframes fadeIn{
+  0%{opacity:0%;}
+  100%{opacity:100%;}
+}
+
+select {
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #000;
+}
+
+img {
+  justify-content: space-between;
+  margin-top: 250px;
+  margin-left: 900px;
+  width: 200px;
+}
+
+ul {
+  margin-top: 50px;
+  font-family: VT323;
+  font-size: 40px;
+  
+}
+li {
+  display: inline;
+  float: left;
+}
+
+a {
+  display: block;
+  padding: 8px;
+}
+.fade-in-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.snorlaxIndex {
+  margin-top:263px;
+}
+.navbar {
+  font-family: VT323;
+  font-size:20px;
+}
