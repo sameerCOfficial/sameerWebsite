@@ -70,8 +70,7 @@ a {
   h2 {
     font-size: 40px; /* Adjust font size for smaller screens */
   }
-  .problem-element {
-    width: 100%; /* Adjust width to fit the screen width */
-    margin: 0;   /* Remove any excessive margin */
+  img {
+    margin-left:0px;
   }
 }
