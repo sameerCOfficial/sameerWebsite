@@ -58,6 +58,9 @@ a {
 .snorlaxIndex {
   margin-top:263px;
 }
+.snorlaxAwards {
+  margin-top:-250px;
+}
 .navbar {
   font-family: VT323;
   font-size:20px;
@@ -72,5 +75,8 @@ a {
   }
   img {
     margin-left:0px;
+  }
+  nav {
+    margin-right:100px;
   }
 }
